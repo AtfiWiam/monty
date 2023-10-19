@@ -5,7 +5,7 @@
  * @head: head of the linked list.
  * @nline: line number.
  *
- * Return: void, no return.
+ * Return: nothing.
  */
 void _pint(stack_t **head, unsigned int nline)
 {
