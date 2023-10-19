@@ -74,29 +74,29 @@ stack_t *add_dnodeint_end(stack_t **head, const int n);
 void free_dlistint(stack_t *head);
 
 /* opcodes_functions1.c */
-void _push(stack_t **head, unsigned int cmdline_n);
-void _pall(stack_t **head, unsigned int cmdline_n);
-void _pint(stack_t **head, unsigned int cmdline_n);
-void _pop(stack_t **head, unsigned int cmdline_n);
-void _swap(stack_t **head, unsigned int cmdline_n);
+void _push(stack_t **head, unsigned int nline);
+void _pall(stack_t **head, unsigned int nline);
+void _pint(stack_t **head, unsigned int nline);
+void _pop(stack_t **head, unsigned int nline);
+void _swap(stack_t **head, unsigned int nline);
 
 /* opcodes_functions2.c */
-void _add(stack_t **head, unsigned int cmdline_n);
-void _nop(stack_t **head, unsigned int cmdline_n);
-void _sub(stack_t **head, unsigned int cmdline_n);
-void _div(stack_t **head, unsigned int cmdline_n);
-void _mul(stack_t **head, unsigned int cmdline_n);
+void _add(stack_t **head, unsigned int nline);
+void _nop(stack_t **head, unsigned int nline);
+void _sub(stack_t **head, unsigned int nline);
+void _div(stack_t **head, unsigned int nline);
+void _mul(stack_t **head, unsigned int nline);
 
 /* opcodes_functions3.c */
-void _mod(stack_t **head, unsigned int cmdline_n);
-void _pchar(stack_t **head, unsigned int cmdline_n);
-void _pstr(stack_t **head, unsigned int cmdline_n);
-void _rotl(stack_t **head, unsigned int cmdline_n);
-void _rotr(stack_t **head, unsigned int cmdline_n);
+void _mod(stack_t **head, unsigned int nline);
+void _pchar(stack_t **head, unsigned int nline);
+void _pstr(stack_t **head, unsigned int nline);
+void _rotl(stack_t **head, unsigned int nline);
+void _rotr(stack_t **head, unsigned int nline);
 
 /* opcodes_functions4.c */
-void _stack(stack_t **head, unsigned int cmdline_n);
-void _queue(stack_t **head, unsigned int cmdline_n);
+void _stack(stack_t **head, unsigned int nline);
+void _queue(stack_t **head, unsigned int nline);
 
 #endif
 
