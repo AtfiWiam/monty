@@ -1,3 +1,5 @@
+#include "monty.h"
+
 /**
  * _rotr - opcode rotates the stack to the bottom.
  * @head: head of the linked list

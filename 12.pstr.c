@@ -1,3 +1,5 @@
+#include "monty.h"
+
 /**
  * _pstr - opcod prints the string of the stack.
  * @head: head of the doubly linked list.
